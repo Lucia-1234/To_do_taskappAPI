@@ -1,107 +1,106 @@
 {
   "users": [
-    { "id": 1, 
-      "name": "Ana Torres", 
-      "active": true 
-    },
-
-    { "id": 2, 
-      "name": "Carlos Gómez", 
-      "active": true 
-    },
-
-    { "id": 3, 
-      "name": "María López", 
-      "active": false 
-    },
-
-    { "id": 4, 
-      "name": "Juan Pérez", 
-      "active": true 
-    },
-
-    { "id": 5, 
-      "name": "Laura Martínez", 
-      "active": true 
-    },
-
-    { "id": 6, 
-      "name": "Pedro Sánchez", 
-      "active": false 
-    },
-    { "id": 7, 
-      "name": "Sofía Ramírez", 
-      "active": true 
-    },
-    { "id": 8, 
-      "name": "Andrés Morales", 
-      "active": true 
-    },
-    { "id": 9, 
-      "name": "Valentina Cruz", 
-      "active": true 
-    },
-    { "id": 10, 
-      "name": "Diego Herrera", 
-      "active": false 
-    }
+    { "id": 1, "name": "Ana Torres", "active": true },
+    { "id": 2, "name": "Carlos Gómez", "active": true },
+    { "id": 3, "name": "María López", "active": false },
+    { "id": 4, "name": "Juan Pérez", "active": true },
+    { "id": 5, "name": "Laura Martínez", "active": true },
+    { "id": 6, "name": "Pedro Sánchez", "active": false },
+    { "id": 7, "name": "Sofía Ramírez", "active": true },
+    { "id": 8, "name": "Andrés Morales", "active": true },
+    { "id": 9, "name": "Valentina Cruz", "active": true },
+    { "id": 10, "name": "Diego Herrera", "active": false }
   ],
-
   "task": [
-    { "id": 1, 
-      "userId": 1, 
-      "title": "Introducción a las API", 
-      "Tarea": "Investigar componentes de las API" 
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "Introducción a las API",
+      "Tarea": "Investigar componentes de las API",
+      "description": "Investigar componentes de las API",
+      "status": "pendiente",
+      "completed": false
     },
-
-    { "id": 2, 
-      "userId": 1, 
-      "title": "HTTP en la práctica", 
-      "Tarea": "Describir el uso de métodos HTTP" 
+    {
+      "id": 2,
+      "userId": 1,
+      "title": "HTTP en la práctica",
+      "Tarea": "Describir el uso de métodos HTTP",
+      "description": "Describir el uso de métodos HTTP",
+      "status": "en-progreso",
+      "completed": false
     },
-
-    { "id": 3, 
-      "userId": 2, 
-      "title": "Arquitectura web", 
-      "Tarea": "crear una estructura donde se evidencie la comunicación Cliente-servidor" 
+    {
+      "id": 3,
+      "userId": 2,
+      "title": "Arquitectura web",
+      "Tarea": "crear una estructura donde se evidencie la comunicación Cliente-servidor",
+      "description": "crear una estructura donde se evidencie la comunicación Cliente-servidor",
+      "status": "completada",
+      "completed": true
     },
-
-    { "id": 4, 
-      "userId": 4, 
-      "title": "JavaScript async", 
-      "Tarea": "Describe que son las Promesas y async/await" 
+    {
+      "id": 4,
+      "userId": 4,
+      "title": "JavaScript async",
+      "Tarea": "Describe que son las Promesas y async/await",
+      "description": "Describe que son las Promesas y async/await",
+      "status": "pendiente",
+      "completed": false
     },
-    { "id": 5, 
-      "userId": 5, 
-      "title": "APIs REST", 
-      "Tarea": "Aplicar buenas prácticas en el diseño de APIs" 
+    {
+      "id": 5,
+      "userId": 5,
+      "title": "APIs REST",
+      "Tarea": "Aplicar buenas prácticas en el diseño de APIs",
+      "description": "Aplicar buenas prácticas en el diseño de APIs",
+      "status": "en-progreso",
+      "completed": false
     },
-    { "id": 6, 
-      "userId": 7, 
-      "title": "Manejo de datos", 
-      "Tarea": "Map, filter, find" 
+    {
+      "id": 6,
+      "userId": 7,
+      "title": "Manejo de datos",
+      "Tarea": "Map, filter, find",
+      "description": "Map, filter, find",
+      "status": "pendiente",
+      "completed": false
     },
-    { "id": 7, 
-      "userId": 9, 
-      "title": "Testing de APIs", 
-      "Tarea": "Realizar pruebas básicas de testing" 
+    {
+      "id": 7,
+      "userId": 9,
+      "title": "Testing de APIs",
+      "Tarea": "Realizar pruebas básicas de testing",
+      "description": "Realizar pruebas básicas de testing",
+      "status": "completada",
+      "completed": true
     },
-    { "id": 8, 
-      "userId": 9, 
-      "title": "Seguridad", 
-      "Tarea": "Aplicar buenas prácticas de seguridad en el desarrollo de APIs" 
+    {
+      "id": 8,
+      "userId": 9,
+      "title": "Seguridad",
+      "Tarea": "Aplicar buenas prácticas de seguridad en el desarrollo de APIs",
+      "description": "Aplicar buenas prácticas de seguridad en el desarrollo de APIs",
+      "status": "pendiente",
+      "completed": false
     },
-
-    { "id": 9, 
-      "userId": 10, 
-      "title": "Documentación", 
-      "Tarea": "Realizar la documentación de una API utilizando herramientas como Swagger" 
+    {
+      "id": 9,
+      "userId": 10,
+      "title": "Documentación",
+      "Tarea": "Realizar la documentación de una API utilizando herramientas como Swagger",
+      "description": "Realizar la documentación de una API utilizando herramientas como Swagger",
+      "status": "pendiente",
+      "completed": false
     },
-
-    { "id": 10, 
-      "userId": 2, 
-      "title": "Integraciones", 
-      "Tarea": "Completar la integración con servicios externos" }
+    {
+      "id": 10,
+      "userId": 2,
+      "title": "Integraciones",
+      "Tarea": "Completar la integración con servicios externos",
+      "description": "Completar la integración con servicios externos",
+      "status": "en-progreso",
+      "completed": false
+    }
   ]
-
 }
